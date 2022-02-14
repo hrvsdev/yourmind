@@ -49,7 +49,7 @@ const Signup = () => {
       <div className="login-box">
         <IoMdLogIn className="login-icon" />
         <h2 className="login-title">Create a new account</h2>
-        <p>Enter your deatils to create an account</p>
+        <p>Enter your details to create an account</p>
         <form onSubmit={signupSubmit} className="login-form">
           <label htmlFor="name">Enter your name</label>
           <input
